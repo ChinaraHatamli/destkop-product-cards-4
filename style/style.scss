@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main{
+    display: flex;
+    
+    .leftside{
+        &__image{
+        padding: 20px 50px;
+        
+        }
+    }
+
+    .rightside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+
+
+        &__description{
+            width: 80%;
+            text-align: center;
+
+        }
+
+
+  &__info {
+
+    &__sales{
+        display: flex;
+        column-gap: 5px;
+
+
+}
+  }
+
+  &__price {
+    color: green;
+    &::before {
+        content: "$16.48" ;
+        color: black;
+        opacity: 0.4;
+
+    }
+  }
+
+  &__list{
+    display: flex;
+    column-gap: 7px;
+  }
+    }
+}
+
+#footer {
+
+    .list{
+        display: flex;
+        justify-content: space-around;
+
+
+        &__item{
+            display: flex;
+            column-gap: 10px; 
+            
+
+            &-number{
+
+                display: block;
+                color: brown;
+                font-size: 40px;
+             
+            }
+
+            
+
+        }
+
+    }
+}
+
+
+
+
